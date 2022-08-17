@@ -13,7 +13,7 @@ public class ExcelUtilities {
 
     public Map<String, String> getRowData(String fileName, String sheetName, int row) throws IOException {
 
-        FileInputStream fis = new FileInputStream(fileName);
+        FileInputStream fis = new FileInputStream("src/test/testData/"+fileName+".xlsx");
         Workbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheet(sheetName);
 
