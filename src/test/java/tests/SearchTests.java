@@ -15,7 +15,7 @@ public class SearchTests extends BaseTest{
 
     @Test
     public void detailedSearch() {
-        driver.get("http://www.google.com");
+
     }
 
 }
